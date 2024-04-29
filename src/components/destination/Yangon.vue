@@ -546,17 +546,19 @@
 
     .destination .place-card-wrapper {
         width: 75%;
-        margin: 0 auto;
+        margin: 10px auto;
     }
 
     .destination .place-card {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         gap: 20px;
         background: rgba(138, 201, 240, 0.2);
         padding: 20px 10px 10px;
         border-radius: 7px;
         margin-bottom: 20px;
+        height: 100%;
     }
 
     .destination .place-card.odd {
@@ -579,11 +581,18 @@
         transform: scale(1.3);
     }
 
+    .destination .place-content {
+        display: flex;
+        flex-direction: column;
+        height: 100% !important;
+    }
+
     .destination .place-content h2 {
         font-size: 28px;
         font-weight: bold;
         font-family: 'Noto Serif Myanmar', serif;
         padding-top: 30px;
+        margin-top: 20px;
         background: -webkit-linear-gradient(330deg,#c0991a, #d39d28,#d39d28);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
