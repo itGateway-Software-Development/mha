@@ -25,46 +25,48 @@
                     <div class="famous-card-wrap">
                         <div class="famous-card" data-card="UI/UX">
                             <div class="card-content z-index">
-                                <img src="@/assets/images/zones/famous-ngwesaung-01.jpg" class="famous-icon" alt="" />
-                                <h3 class="title-sm">Beach</h3>
+                                <img src="@/assets/images/destination/ngwesaung/ngwe_saung_beach/4.jpg" class="famous-icon" alt="" />
+                                <h3 class="title-sm">ငွေဆောင်ကမ်းခြေ</h3>
                                 <p class="text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est suscipit itaque?
+                                    ငွေဆောင်ကမ်းခြေသည် ဧရာဝတီတိုင်းဒေသကြီး၊ ပုသိမ်မြို့အနောက်ဖက် (၄၈)ကီလိုမီတာအကွာ တွင် တည်ရှိသည့် ပင်လယ်ကမ်းခြေ အပန်းဖြေစခန်းတစ်ခုဖြစ်သည်။ 
                                 </p>
-                                <a href="#" class="btn transparent">Read more</a>
+                                <a href="/destination/NgweSaung" class="btn transparent">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 famous-card-wrap">
+                <div class="col-lg-4 famout-card-wrap">
                     <div class="famous-card-wrap">
-                        <div class="famous-card" data-card="Code">
+                        <div class="famous-card" data-card="UI/UX">
                             <div class="card-content z-index">
-                                <img src="@/assets/images/zones/famous-ngwesaung-02.jpg" class="famous-icon" alt="" />
-                                <h3 class="title-sm">Lover's Island</h3>
+                                <img  src="@/assets/images/destination/ngwesaung/lover_island/2.jpg" class="famous-icon" alt="" />
+                                <h3 class="title-sm">ချစ်သူများကျွန်း </h3>
                                 <p class="text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores suscipit nobi?
+                                    ချစ်သူများကျွန်းသည် ငွေဆောင်ဟိုတယ်ဇုန်လမ်းမကြီးဘေးတွင်တည်ရှိပြီး ဆိုင်တန်းများ၊ ရေကူးတဲ့ လူများ၊ ငှက်ကျွန်းသွားရန် လှေစောင့်နေသောလူများဖြင့် စည်ကားသောနေရာဖြစ်သည်။ 
                                 </p>
-                                <a href="#" class="btn transparent">Read more</a>
+                                <a href="/destination/NgweSaung" class="btn transparent">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 famous-card-wrap">
+
+                <div class="col-lg-4 famout-card-wrap">
                     <div class="famous-card-wrap">
-                        <div class="famous-card" data-card="App">
+                        <div class="famous-card" data-card="UI/UX">
                             <div class="card-content z-index">
-                                <img src="@/assets/images/zones/famous-ngwesaung-03.jpg" class="famous-icon" alt="" />
-                                <h3 class="title-sm">Bird Island</h3>
+                                <img src="@/assets/images/destination/ngwesaung/bird_island/2.jpg" class="famous-icon" alt="" />
+                                <h3 class="title-sm">ငှက်ကျွန်း </h3>
                                 <p class="text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum hic veniam.
+                                    ငှက်ကျွန်းသည် ငွေဆောင်ကမ်းခြေမှ ရေမိုင်(၉)မိုင်ခန့်ကွာဝေးသော အမျိုးစားစုံလင်ပြီး အရောင်လှတဲ့ ငှက်မျိုးစုံများနေထိုင်သည့် ကျွန်းတစ်ကျွန်းဖြစ်သည်။ 
                                 </p>
-                                <a href="#" class="btn transparent">Read more</a>
+                                <a href="/destination/NgweSaung" class="btn transparent">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
