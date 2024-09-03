@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 cec-card-wrap">
+        <!-- <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 cec-card-wrap">
           <div class="cec-card" data-card="Code">
             <div class="card-content z-index">
               <img
@@ -39,7 +39,7 @@
               <a href="#" class="btn btn-outline-light">Grand Andaman Hotel</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 cec-card-wrap">
           <div class="cec-card" data-card="App">
@@ -50,7 +50,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Aung Moe Kyi</h3>
-              <p class="text">Vice Chairman (2)</p>
+              <p class="text">Vice Chairman (1)</p>
               <a href="#" class="btn btn-outline-light">Gracious Bagan Hotel</a>
             </div>
           </div>
@@ -65,7 +65,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Myo Min Zaw</h3>
-              <p class="text">Vice Chairman (3)</p>
+              <p class="text">Vice Chairman (2)</p>
               <a href="#" class="btn btn-outline-light">View Point Lodge</a>
             </div>
           </div>
@@ -80,7 +80,7 @@
                 alt=""
               />
               <h3 class="title-sm">Dr. Khin Maung Htwe</h3>
-              <p class="text">Vice Chairman (4)</p>
+              <p class="text">Vice Chairman (3)</p>
               <a href="#" class="btn btn-outline-light">Hotel Akimomi</a>
             </div>
           </div>
@@ -95,7 +95,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Thein Win</h3>
-              <p class="text">Vice Chairman (5)</p>
+              <p class="text">Vice Chairman (4)</p>
               <a href="#" class="btn btn-outline-light">Beauty Land Hotel</a>
             </div>
           </div>
