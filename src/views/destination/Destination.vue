@@ -8,6 +8,7 @@
         <div v-if="destinationName === 'ChaungThar'"><ChaungTha></ChaungTha></div>
         <div v-if="destinationName === 'Magway'"><Magway></Magway></div>
         <div v-if="destinationName === 'NgweSaung'"><NgweSaung></NgweSaung></div>
+        <div v-if="destinationName === 'MawLaMying'"><MawLaMying></MawLaMying></div>
     </div>
 </template>
 
@@ -20,12 +21,14 @@ import Mandalay from '../../components/destination/Mandalay'
 import Kayin from '../../components/destination/Kayin'
 import Pyay from '../../components/destination/Pyay'
 import Yangon from '../../components/destination/Yangon'
+import MawLaMying from '@/components/destination/MawLaMying.vue'
 export default {
   components: {
     NgweSaung,
     Magway,
     ChaungTha,
     NayPyiTaw,
+    MawLaMying,
     Mandalay,
     Kayin,
     Pyay, Yangon },
