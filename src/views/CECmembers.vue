@@ -10,6 +10,9 @@
   </section>
   <section class="cec services cec-section" id="services">
     <div class="container-fluid container-lg">
+      <h4 class="mt-5 mb-5 text-center">
+        Myanmar Hotelier Association (2022-2024) CEC Members
+      </h4>
       <div class="row cec-cards">
         <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 cec-card-wrap">
           <div class="cec-card" data-card="UI/UX">
@@ -572,6 +575,13 @@ export default {};
 .content h3 {
   font-size: 32px;
   font-weight: bold;
+}
+
+.cec h4 {
+  font-weight: bold;
+  background: linear-gradient(to right, #c9a42e, #96711b, #c9a42e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .cec-cards {
