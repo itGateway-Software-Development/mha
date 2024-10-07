@@ -10,7 +10,7 @@
             <div class="last-link-container">
                 <div class="last-link"></div>
                 
-                <div class="date" v-if="isLoaded && !isDetail">{{ news[0] ? convertToMyanmarFont(new Date(news[0].date).getFullYear()) : '၂၀၂၃' }} ခုနှစ်၊ {{ news[0] ? new Date(news[0].date).toLocaleString('default', { month: 'long' }) : 'month' }} လ ( {{ news[0] ? convertToMyanmarFont(new Date(news[0].date).getDate()) : '' }} )ရက်နေ့မှ (၃၀)ရက်နေ့အထိ</div>
+                <div class="date" v-if="isLoaded && !isDetail">{{ news[0] ? convertToMyanmarFont(new Date(news[0].date).getFullYear()) : '၂၀၂၃' }} ခုနှစ်၊ {{ burmeseMonth(new Date(news[0].date).toLocaleString('default', { month: 'long' })) }} လ ( {{ news[0] ? convertToMyanmarFont(new Date(news[0].date).getDate()) : '' }} )ရက်နေ့မှ (၃၀)ရက်နေ့အထိ</div>
 
                 <div class="date" v-else>{{ news ? convertToMyanmarFont(new Date(news.date).getFullYear()) : '၂၀၂၃' }} ခုနှစ်၊ {{ news ? new Date(news.date).toLocaleString('default', { month: 'long' }) : 'month' }} လ ( {{ news ? convertToMyanmarFont(new Date(news.date).getDate()) : '' }} )ရက်နေ့မှ (၃၀)ရက်နေ့အထိ</div>
 
@@ -28,8 +28,27 @@
                 const MyanmarNumerals = ['၀', '၁', '၂', '၃', '၄', '၅', '၆', '၇', '၈', '၉'];
                 return number.toString().replace(/\d/g, (digit) => MyanmarNumerals[digit]);
             };
-            
-            return { convertToMyanmarFont };
+
+            const burmeseMonths = {
+                January: 'ဇန်နဝါရီ',
+                February: 'ဖေဖော်ဝါရီ',
+                March: 'မတ်',
+                April: 'ဧပြီ',
+                May: 'မေ',
+                June: 'ဇွန်',
+                July: 'ဇူလိုင်',
+                August: 'ဩဂုတ်',
+                September: 'စက်တင်ဘာ',
+                October: 'အောက်တိုဘာ',
+                November: 'နိုဝင်ဘာ',
+                December: 'ဒီဇင်ဘာ'
+                };
+
+            const burmeseMonth = (month) => {
+                return burmeseMonths[month] || 'month';
+            }
+
+            return { convertToMyanmarFont, burmeseMonth };
         }
     }
 </script>
