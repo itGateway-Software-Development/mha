@@ -9,11 +9,13 @@
         <div v-if="destinationName === 'Magway'"><Magway></Magway></div>
         <div v-if="destinationName === 'NgweSaung'"><NgweSaung></NgweSaung></div>
         <div v-if="destinationName === 'MawLaMying'"><MawLaMying></MawLaMying></div>
+        <div v-if="destinationName === 'Rakhine'"><Rakhine></Rakhine></div>
     </div>
 </template>
 
 <script>
-    import NgweSaung from '../../components/destination/NgweSaung'
+    import Rakhine from '../../components/destination/Rakhine'
+import NgweSaung from '../../components/destination/NgweSaung'
 import Magway from '../../components/destination/Magway'
 import ChaungTha from '../../components/destination/ChaungTha'
 import NayPyiTaw from '../../components/destination/NayPyiTaw'
@@ -24,6 +26,7 @@ import Yangon from '../../components/destination/Yangon'
 import MawLaMying from '@/components/destination/MawLaMying.vue'
 export default {
   components: {
+    Rakhine,
     NgweSaung,
     Magway,
     ChaungTha,
