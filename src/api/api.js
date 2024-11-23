@@ -1,3 +1,4 @@
+// let host = "http://localhost:8000/api/v1/";
 let host = "https://admin.myanmarhotelier.org/api/v1/";
 
 let api = {

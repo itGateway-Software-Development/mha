@@ -1,11 +1,14 @@
 <template>
     <div class="activities">
-        <Header :news="news" :isLoaded="isLoaded" :isDetail="false"></Header>
+        <Header v-if="news.length > 0" :news="news" :isLoaded="isLoaded" ></Header>
         <hr>
         <div class="menu">
             <h3>MHA</h3>
             <h4>{{currentMonth.toUpperCase()}} လအတွက် သတင်းစာများ</h4>
             <div>
+                <select name="" id="" class="pointer" @change="getNewsByMonth" v-model="currentYear">
+                    <option v-for="(year, index) in years" :key="index" :value="year" :selected="year == currentYear">{{year}}</option>
+                </select>
                 <select name="" id="" class="pointer" @change="getNewsByMonth">
                     <option v-for="(month, index) in months" :key="index" :value="month" :selected="month == currentMonth">{{month.toUpperCase()}}</option>
                 </select>
@@ -51,19 +54,20 @@ import { ref } from 'vue';
   components: { Header },
         setup() {
             let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            let years = ['2022', '2023', '2024', '2025', '2026']
             let img_path = api.image_url;
             let default_img_path = require('@/assets/images/default.webp')
 
              //for current month
              let currentMonth = ref(months[new Date().getMonth()]);
-
+            let currentYear = ref(new Date().getFullYear());
 
             let {news, errors, isLoaded, load} = getNews();
-            load(currentMonth.value);
+            load(currentMonth.value, currentYear.value);
 
             let getNewsByMonth = (event) => {
                 let month = event.target.value;
-                load(month);
+                load(month, currentYear.value);
                 currentMonth.value = month;
             }
 
@@ -71,7 +75,7 @@ import { ref } from 'vue';
 
            
 
-            return {months, getNewsByMonth, news, img_path, default_img_path, currentMonth, isLoaded}
+            return {months,years, getNewsByMonth, news, img_path, default_img_path, currentMonth,currentYear, isLoaded}
         }
     }
 </script>

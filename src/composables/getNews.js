@@ -9,9 +9,9 @@ let getNews = () => {
     let news = ref([]);
     let errors = ref('');
     let isLoaded = ref(false);
-    let load = async(month = 'all') => {
+    let load = async(month = 'all', year) => {
         try {
-            let response = await axios.get(api.getNews + "?month=" + month);
+            let response = await axios.get(api.getNews + "?month=" + month + "&year=" + year);
 
             if (response.status === 404) {
                 throw new Error('Page not found');
