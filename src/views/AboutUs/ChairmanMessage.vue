@@ -17,7 +17,7 @@
         <h2>ORGANIZATION AND RESPONSIBILITIES</h2>
         <br />
         <h3>CHAIRMAN MESSAGE</h3>
-        <p>Message from the Chairman, Myanmar Hotelier Association</p>
+        <p>Message from the Chairman, Myanmar Hotelier Association!</p>
         <p>
           It is a great pleasure to open this portal with auspicious New Year
           greetings to keen viewers and to commemorate some mileage we have
@@ -25,16 +25,17 @@
         </p>
         <p>
           Founded on 24th October, 2002 and officially given recognition by the
-          Ministry of Home Affairs (Reg. No.1864) on 21st November, 2003, MHA
-          has over the years become a strong organization, and established 21
-          Hotelier Association in major tourist destination with over 1800
-          members.
+          Ministry of Home Affairs (Registration No. 1864) on 21st November 2003
+          and Directorate of Investment and Company Administration (Registration
+          No. 139266382) on 12th December 2023. MHA has over the years become a
+          strong organization and established Hotelier Association in major
+          tourist destination with over 1900 members.
         </p>
         <p>
           From the start, MHA has been in close collaboration with the Ministry
-          of Hotels and Tourism, and in partnership with the Union of Myanmar
-          Travel Association and the Myanmar Tourism Marketing promoted the
-          Tourism Industry in Myanmar.
+          of Hotels and Tourism, in partnership with the Union of Myanmar Travel
+          Association and the Myanmar Tourism Marketing promoted the Tourism
+          Industry in Myanmar.
         </p>
         <p>
           As the voice of the Myanmar Hoteliers, MHA looks into the needs of its
@@ -43,11 +44,11 @@
           activities.
         </p>
         <p>
-          <b>Our Vision</b> is clearly defined to empower Myanmar Hotel Industry
+          <b>Our Vision</b>is clearly defined to empower Myanmar Hotel Industry
           aimed to achieve sustainable growth and be competitive to
           international standards.<br />
           <b>Our Mission</b> is to have unity and nationwide representation of
-          hotels, motels, inns, lodges and guest houses; and at the same time
+          Hotels, Motels, Inns, Lodges and Guest Houses and at the same time
           assist and develop the membership systematically, finding solutions to
           problems in a timely and efficient manner.
         </p>
@@ -58,8 +59,11 @@
           and future development plans.
         </p>
         <br />
-        <img class="chairman-img" src="@/assets/images/chairman/chairman.jpg" />
-        <p><b>U Aung Myo Min Din,</b></p>
+        <img
+          class="chairman-img"
+          src="@/assets/images/chairman/chairman-1.jpg"
+        />
+        <p><b>Mr. Thein Win,</b></p>
         <p><b>Chairman</b></p>
         <p><b>Myanmar Hotelier Association</b></p>
         <br />
