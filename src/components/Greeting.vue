@@ -124,6 +124,28 @@
             </div>
           </div>
           <!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <img
+                  src="@/assets/images/CEC-Member-Photo/2025-2027/greeting/6.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>U Than Htut</h3>
+                <h4>Vice Chairman (5)</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i> MHA will
+                  be the association that empowers Myanmar Hotel Industry to
+                  achieve sustainable growth and be competitive at international
+                  standards.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End testimonial item -->
         </div>
         <div class="swiper-pagination" id="swiper-paginate"></div>
       </div>
