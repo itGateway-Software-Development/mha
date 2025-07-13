@@ -10,6 +10,8 @@
         <div v-if="destinationName === 'NgweSaung'"><NgweSaung></NgweSaung></div>
         <div v-if="destinationName === 'MawLaMying'"><MawLaMying></MawLaMying></div>
         <div v-if="destinationName === 'Rakhine'"><Rakhine></Rakhine></div>
+        <div v-if="destinationName === 'Bago'"><Bago></Bago></div>
+        <div v-if="destinationName === 'ShanNorth'"><ShanNorth></ShanNorth></div>
     </div>
 </template>
 
@@ -24,6 +26,9 @@ import Kayin from '../../components/destination/Kayin'
 import Pyay from '../../components/destination/Pyay'
 import Yangon from '../../components/destination/Yangon'
 import MawLaMying from '@/components/destination/MawLaMying.vue'
+import Bago from '@/components/destination/Bago.vue'
+import ShanNorth from '@/components/destination/ShanNorth.vue'
+
 export default {
   components: {
     Rakhine,
@@ -34,7 +39,11 @@ export default {
     MawLaMying,
     Mandalay,
     Kayin,
-    Pyay, Yangon },
+    Pyay,
+    Yangon,
+    Bago,
+    ShanNorth
+ },
         props: ['destinationName'],
     }
 </script>
