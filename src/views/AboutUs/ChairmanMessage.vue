@@ -61,7 +61,7 @@
         <br />
         <img
           class="chairman-img"
-          src="@/assets/images/chairman/chairman-1.jpg"
+          src="@/assets/images/chairman/chairman_new.jpg"
         />
         <p><b>Mr. Thein Win,</b></p>
         <p><b>Chairman</b></p>
