@@ -420,7 +420,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Tun Kyaw</h3>
-              <p class="text">Chairman, Bago Zone</p>
+              <p class="text">Joint General Secretary (5)</p>
               <a href="#" class="btn btn-outline-light">Bayint Naung Hotel</a>
             </div>
           </div>
