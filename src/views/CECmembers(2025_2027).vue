@@ -23,7 +23,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Thein Win</h3>
-              <p class="text">Chairman / Chairman (Yangon Zone)</p>
+              <p class="text" style="height: 50px;">Chairman / Chairman (Yangon Zone)</p>
               <a href="#" class="btn btn-outline-light">Beauty Land Hotel</a>
             </div>
           </div>
@@ -38,7 +38,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Tun Lin Thaung</h3>
-              <p class="text">Vice Chairman (1) / Chairman (Pyay Zone)</p>
+              <p class="text" style="height: 50px;">Vice Chairman (1) / Chairman (Pyay Zone)</p>
               <a href="#" class="btn btn-outline-light"
                 >Alinkar Hotel & Resort</a
               >
@@ -55,7 +55,7 @@
                 alt=""
               />
               <h3 class="title-sm">Dr. Kyaw Min Htun</h3>
-              <p class="text">Vice Chairman (2) / Chairman (Nay Pyi Taw)</p>
+              <p class="text" style="height: 50px;">Vice Chairman (2) / Chairman (Nay Pyi Taw)</p>
               <a href="#" class="btn btn-outline-light">Oattara Thiri Hotel</a>
             </div>
           </div>
@@ -70,7 +70,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Myo Min Zaw</h3>
-              <p class="text">Vice Chairman (3) / Chairman (Shan-South)</p>
+              <p class="text" style="height: 50px;">Vice Chairman (3) / Chairman (Shan-South)</p>
               <a href="#" class="btn btn-outline-light">Saffron Lodge</a>
             </div>
           </div>
@@ -85,7 +85,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Zaw Htike Aye</h3>
-              <p class="text">Vice Chairman (4)</p>
+              <p class="text" style="height: 50px;">Vice Chairman (4)</p>
               <a href="#" class="btn btn-outline-light">Jasmine Hotel</a>
             </div>
           </div>
@@ -100,7 +100,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Than Htut</h3>
-              <p class="text">Vice Chairman (5)</p>
+              <p class="text" style="height: 50px;">Vice Chairman (5)</p>
               <a href="#" class="btn btn-outline-light"
                 >Hilton Ngapali Resort</a
               >
@@ -117,7 +117,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Nay Aung Ko</h3>
-              <p class="text">General Secretary</p>
+              <p class="text" style="height: 50px;">General Secretary</p>
               <a href="#" class="btn btn-outline-light">Thamada Family Hotel</a>
             </div>
           </div>
@@ -132,7 +132,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Thein Oak Aung Paing</h3>
-              <p class="text">Joint General Secretary (1)</p>
+              <p class="text" style="height: 50px;">Joint General Secretary (1)</p>
               <a href="#" class="btn btn-outline-light">Hotel Yankin</a>
             </div>
           </div>
@@ -147,7 +147,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Kyaw Nyi Nyi Latt</h3>
-              <p class="text">Joint General Secretary (2)</p>
+              <p class="text" style="height: 50px;">Joint General Secretary (2)</p>
               <a href="#" class="btn btn-outline-light">Lucky Hotel</a>
             </div>
           </div>
@@ -162,7 +162,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Myo Min Aung Kyaw</h3>
-              <p class="text">Joint General Secretary (3)</p>
+              <p class="text" style="height: 50px;">Joint General Secretary (3)</p>
               <a href="#" class="btn btn-outline-light">Vantage Hotel</a>
             </div>
           </div>
@@ -177,8 +177,23 @@
                 alt=""
               />
               <h3 class="title-sm">U Kyaw Nanda Maung</h3>
-              <p class="text">Joint General Secretary (4)</p>
+              <p class="text" style="height: 50px;">Joint General Secretary (4)</p>
               <a href="#" class="btn btn-outline-light">White Hill Hotel</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 cec-card-wrap">
+          <div class="cec-card" data-card="Code">
+            <div class="card-content z-index">
+              <img
+                src="@/assets/images/CEC-Member-Photo/2025-2027/27.jpg"
+                class="cec-icon"
+                alt=""
+              />
+              <h3 class="title-sm">U Tun Kyaw</h3>
+              <p class="text" style="height: 50px;">Joint General Secretary (5) <br> Chairman (Bago Zone)</p>
+              <a href="#" class="btn btn-outline-light">Bayint Naung Hotel</a>
             </div>
           </div>
         </div>
@@ -192,7 +207,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Thiha Aung</h3>
-              <p class="text">Treasurer</p>
+              <p class="text" style="height: 50px;">Treasurer</p>
               <a href="#" class="btn btn-outline-light"
                 >Dream Light Guest Hotel</a
               >
@@ -209,7 +224,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Aung Than</h3>
-              <p class="text">Joint Treasurer (1) / Chairman (Magway Zone)</p>
+              <p class="text" style="height: 50px;">Joint Treasurer (1) / Chairman (Magway Zone)</p>
               <a href="#" class="btn btn-outline-light">Palae Shwe Yee Hotel</a>
             </div>
           </div>
@@ -224,7 +239,7 @@
                 alt=""
               />
               <h3 class="title-sm">Daw Ye Lae Aung</h3>
-              <p class="text">Joint Treasurer (2)</p>
+              <p class="text" style="height: 50px;">Joint Treasurer (2)</p>
               <a href="#" class="btn btn-outline-light">Seaman Inn</a>
             </div>
           </div>
@@ -238,7 +253,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Chan Min Oo</h3>
-              <p class="text">Joint Treasurer (3)</p>
+              <p class="text" style="height: 50px;">Joint Treasurer (3)</p>
               <a href="#" class="btn btn-outline-light">Hotel Balmi</a>
             </div>
           </div>
@@ -253,7 +268,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Than Oo</h3>
-              <p class="text">Auditor</p>
+              <p class="text" style="height: 50px;">Auditor</p>
               <a href="#" class="btn btn-outline-light"
                 >Bay View Hotel & Resort</a
               >
@@ -270,7 +285,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Than Shwe</h3>
-              <p class="text">Joint Auditor (1)</p>
+              <p class="text" style="height: 50px;">Joint Auditor (1)</p>
               <a href="#" class="btn btn-outline-light">Crown Prince Hotel</a>
             </div>
           </div>
@@ -285,7 +300,7 @@
                 alt=""
               />
               <h3 class="title-sm">Daw Kay Thi Naing</h3>
-              <p class="text">Joint Auditor (2)</p>
+              <p class="text" style="height: 50px;">Joint Auditor (2)</p>
               <a href="#" class="btn btn-outline-light">Yuzana Hotel</a>
             </div>
           </div>
@@ -300,7 +315,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Thant Naing Tun</h3>
-              <p class="text">Joint Auditor (3)</p>
+              <p class="text" style="height: 50px;">Joint Auditor (3)</p>
               <a href="#" class="btn btn-outline-light">Hotel Bo Bo Min</a>
             </div>
           </div>
@@ -315,7 +330,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Aung Moe Kyi</h3>
-              <p class="text">Chairman, Bagan Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Bagan Zone</p>
               <a href="#" class="btn btn-outline-light">Gracious Bagan Hotel</a>
             </div>
           </div>
@@ -330,7 +345,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Min Kyaw Oo</h3>
-              <p class="text">Chairman, Chaung Tha Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Chaung Tha Zone</p>
               <a href="#" class="btn btn-outline-light">Grand Hotel</a>
             </div>
           </div>
@@ -345,7 +360,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Myint Aung</h3>
-              <p class="text">Chairman, Mandalay Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Mandalay Zone</p>
               <a href="#" class="btn btn-outline-light">Aung Myint Mo Hotel</a>
             </div>
           </div>
@@ -360,7 +375,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Chan Tun</h3>
-              <p class="text">Chairman, Mawlamyine Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Mawlamyine Zone</p>
               <a href="#" class="btn btn-outline-light">Than Lwin Hotel</a>
             </div>
           </div>
@@ -375,7 +390,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Htun Nay Oo</h3>
-              <p class="text">Chairman, Golden Triangle Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Golden Triangle Zone</p>
               <a href="#" class="btn btn-outline-light">Hotel Tachileik</a>
             </div>
           </div>
@@ -390,7 +405,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Myint San</h3>
-              <p class="text">Chairman, Rakhine Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Rakhine Zone</p>
               <a href="#" class="btn btn-outline-light">Linn Tar Oo Lodge</a>
             </div>
           </div>
@@ -405,23 +420,8 @@
                 alt=""
               />
               <h3 class="title-sm">U Nay Lin</h3>
-              <p class="text">Chairman, Ngwe Saung Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Ngwe Saung Zone</p>
               <a href="#" class="btn btn-outline-light">Hotel Lux</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12 cec-card-wrap">
-          <div class="cec-card" data-card="Code">
-            <div class="card-content z-index">
-              <img
-                src="@/assets/images/CEC-Member-Photo/2025-2027/27.jpg"
-                class="cec-icon"
-                alt=""
-              />
-              <h3 class="title-sm">U Tun Kyaw</h3>
-              <p class="text">Joint General Secretary (5)</p>
-              <a href="#" class="btn btn-outline-light">Bayint Naung Hotel</a>
             </div>
           </div>
         </div>
@@ -435,7 +435,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Khin Maung Myint</h3>
-              <p class="text">Chairman, Kayah Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Kayah Zone</p>
               <a href="#" class="btn btn-outline-light"
                 >Loikaw Princess Hotel</a
               >
@@ -452,7 +452,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Kyaw Win</h3>
-              <p class="text">Chairman, Tanintharyi Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Tanintharyi Zone</p>
               <a href="#" class="btn btn-outline-light">Peleekari Hotel</a>
             </div>
           </div>
@@ -467,7 +467,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Aye Ko</h3>
-              <p class="text">Chairman, Pyin Oo Lwin Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Pyin Oo Lwin Zone</p>
               <a href="#" class="btn btn-outline-light">Hotel Shwe Nan Htike</a>
             </div>
           </div>
@@ -482,7 +482,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Bi Sein</h3>
-              <p class="text">Chairman, Kayin Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Kayin Zone</p>
               <a href="#" class="btn btn-outline-light">Grace Hotel</a>
             </div>
           </div>
@@ -497,7 +497,7 @@
                 alt=""
               />
               <h3 class="title-sm">Daw Thida Kyaw</h3>
-              <p class="text">Chairman, Sagaing Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Sagaing Zone</p>
               <a href="#" class="btn btn-outline-light">Nang San Hotel</a>
             </div>
           </div>
@@ -512,7 +512,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Menon La Seng</h3>
-              <p class="text">Chairman, Kachin Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Kachin Zone</p>
               <a href="#" class="btn btn-outline-light">Wuntawp Motel</a>
             </div>
           </div>
@@ -527,7 +527,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Zaw Zaw</h3>
-              <p class="text">Chairman, Shan-North Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Shan-North Zone</p>
               <a href="#" class="btn btn-outline-light">New Palace Hotel</a>
             </div>
           </div>
@@ -542,7 +542,7 @@
                 alt=""
               />
               <h3 class="title-sm">U Shein Gay Ngai</h3>
-              <p class="text">Chairman, Chin Zone</p>
+              <p class="text" style="height: 50px;">Chairman, Chin Zone</p>
               <a href="#" class="btn btn-outline-light">Mountain Oasis Hotel</a>
             </div>
           </div>
